@@ -262,7 +262,7 @@ class DreameL10SUltraValetudoRobot extends DreameGen2LidarValetudoRobot {
     static IMPLEMENTATION_AUTO_DETECTION_HANDLER() {
         const deviceConf = MiioValetudoRobot.READ_DEVICE_CONF(DreameValetudoRobot.DEVICE_CONF_PATH);
 
-        return !!(deviceConf && deviceConf.model === "dreame.vacuum.r2228o");
+        return !!(deviceConf && deviceConf.model === "dreame.vacuum.r2228");
     }
 }
 
